@@ -13,6 +13,12 @@ body {
     align-items: center;
 }
 
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     color: black;
@@ -34,6 +40,7 @@ ul.container {
     width: 100%;
     max-width: 800px;
     gap: 10px;
+    border-radius: 7px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
 
     display: flex;
@@ -52,5 +59,11 @@ ul.container {
     justify-content: center;
     text-align: center;
     align-items: center;
+}
+
+.container li:hover {
+    background-color: lightgreen;
+    transition: 0.3s;
+    transform: scale(1.05);
 }
 
