@@ -85,3 +85,59 @@ header > h1 {
 .container1 > ul > li#gray1:hover {background-color: gray; cursor: pointer; transform: scale(1.5);}
 .container1 > ul > li#reset1:hover {background-color: lightcoral; cursor: pointer; transform: scale(1.5);}
 
+
+/*CALCULADOR -*/
+
+.container2 {
+    max-width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: lightsalmon;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.418);
+
+    align-items: center;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+.container2 > h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 4px;
+
+}
+
+.container2 > ul {
+    background-color: lightcoral;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.418);
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    width: 70%;
+
+    padding: 10px;    
+}
+
+.container2 > ul > li {
+    color: white;
+    background-color: lightsalmon;
+    height: 25px;
+    margin: 13px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 > ul > li#maisTres:hover {background-color: aqua;cursor: pointer; transform: scale(1.5); color: black}
+.container2 > ul > li#menosQuatro:hover {background-color: aqua; cursor: pointer; transform: scale(1.5); color: black}
+.container2 > ul > li#maisNove:hover {background-color: aqua; cursor: pointer; transform: scale(1.5); color: black}
+.container2 > ul > li#maisCinco:hover {background-color: aqua; cursor: pointer; transform: scale(1.5); color: black;}
+.container2 > ul > li#totZero:hover {background-color: aqua; cursor: pointer; transform: scale(1.5); color: black}
