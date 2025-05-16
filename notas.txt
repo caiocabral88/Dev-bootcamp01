@@ -1,0 +1,14 @@
+- Mudar cor de fundo
+
+Criar lista com as cores
+    atribuir id a cada uma delas
+    classe apenas se o css demandar
+Fazer css
+javaScript
+    getElement - pegar o id 
+        change background 
+        organizar cores do texto para melhor contraste
+        se possível, background apenas de uma box especifica
+
+
+-

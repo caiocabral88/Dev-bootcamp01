@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightcoral;
+    
+}
+
+header {
+    background-color: lightsalmon;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 80vw;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.473);
+
+    display: flex;
+    justify-content: center;
+}
+
+header > h1 {
+    color: white;
+    font-size: 1.8em;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.384);
+    
+}
+
+.container1 {
+    max-width: 300px;
+    height: 400px;
+    margin: auto;
+    background-color: lightsalmon;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.418);
+
+    align-items: center;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 > h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 4px;
+
+}
+
+.container1 > ul {
+    background-color: lightcoral;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.418);
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+
+    padding: 10px;    
+}
+
+.container1 > ul > li {
+    color: white;
+    background-color: lightsalmon;
+    height: 25px;
+    margin: 13px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 > ul > li#red1:hover {background-color: red;cursor: pointer; transform: scale(1.5);}
+.container1 > ul > li#green1:hover {background-color: green; cursor: pointer; transform: scale(1.5);}
+.container1 > ul > li#blue1:hover {background-color: blue; cursor: pointer; transform: scale(1.5);}
+.container1 > ul > li#yellow1:hover {background-color: yellow; cursor: pointer; transform: scale(1.5); color: black;}
+.container1 > ul > li#gray1:hover {background-color: gray; cursor: pointer; transform: scale(1.5);}
+.container1 > ul > li#reset1:hover {background-color: lightcoral; cursor: pointer; transform: scale(1.5);}
+
