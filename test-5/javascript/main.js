@@ -7,5 +7,5 @@ function rodar() {
     const nome3 = document.querySelector('#tnome').value;
     const nome4 = document.querySelector('#qnome').value;
 
-    document.querySelector('#grito').innerText = nome1 + '' + nome2 + '' + nome3 + '' + nome4;
+    document.querySelector('#grito').innerText = `${nome1} ${nome2} ${nome3} ${nome4}`;
 }
