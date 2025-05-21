@@ -15,3 +15,7 @@ function multiplicar() {
     let valorMultUm = document.querySelector("#multUm").value;
     let valorMultDois = document.querySelector("#multDois").value;
     let valorMultTres = document.querySelector("#multTres").value;
+
+    let resultMult = Number(valorMultUm) * Number(valorMultDois) * Number(valorMultTres);
+    alert("Resultado da multiplicação: " + resultMult);
+}
