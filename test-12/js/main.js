@@ -1,3 +1,5 @@
+
+// Etapa Um
 document.querySelector("#botaoUm").addEventListener("click", subtrair);
 
 function subtrair() {
@@ -9,6 +11,7 @@ function subtrair() {
 }
 
 
+// Etapa Dois
 document.querySelector("#botaoDois").addEventListener("click", multiplicar);
 
 function multiplicar() {
@@ -18,4 +21,17 @@ function multiplicar() {
 
     let resultMult = Number(valorMultUm) * Number(valorMultDois) * Number(valorMultTres);
     alert("Resultado da multiplicação: " + resultMult);
+}
+
+// Etapa Três
+
+document.querySelector("#botaoTres").addEventListener("click", dividir);
+
+function dividir() {
+    let valDivUm = document.querySelector("#dividUm").value;
+    let valDivDois = document.querySelector("#dividDois").value;
+    let valDivTres = document.querySelector("#dividTres").value;
+
+    let resultDiv = Number(valDivUm) / Number(valDivDois) / Number(valDivTres);
+    alert("Resultado da divisão: " + resultDiv);
 }
