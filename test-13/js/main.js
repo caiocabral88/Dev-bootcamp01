@@ -41,3 +41,23 @@ function dividThreee(n1, n2, n3) {
         alert("AE CARAI");
     }
 }
+
+
+//declare a variable, assign it a Boolean, and alert the value
+
+let variavelBoolean = true;
+alert(variavelBoolean);
+
+//Create a function that takes four numbers, and divide the sum of three first numbers by th fourth number.
+
+function numbersUm(n1,n2,n3,n4) {
+    let resultUm = Number(n1) + Number(n2) + Number(n3);
+    let resultDois = resultUm / Number(n4);
+    console.log("O resultado da soma é: " + resultUm + " e o resultado da divisão é: " + resultDois);
+}
+
+//Create a function that takes two numbers and console log the first number raised to the power of the second number.
+function powerOfNumber (n1, n2) {
+    let resultPower = Math.pow(Number(n1), Number(n2));
+    console.log("O resultado da potência é: " + resultPower);
+}
