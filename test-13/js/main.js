@@ -27,22 +27,18 @@ document.querySelector("button").addEventListener("click", comer);
 //         document.querySelector("#snack").innerText += " , " + (i + 1);
 //     }
 // }
-
 function addThree(n1, n2, n3) {
     let value = Number(n1) + Number(n2) + Number(n3);
     if (value > 1000) {
         console.log("O valor é LINCOLN");
     }
 }
-
 function dividThreee(n1, n2, n3) {
     let result = Number(n1) / Number(n2) / Number(n3);
     if (result % 5 === 0) {
         alert("AE CARAI");
     }
 }
-
-
 //declare a variable, assign it a Boolean, and alert the value
 
 let variavelBoolean = true;
@@ -54,13 +50,12 @@ function numbersUm(n1,n2,n3,n4) {
     let resultUm = (Number(n1) + Number(n2) + Number(n3)) / Number(n4);
     console.log("O resultado da divisão dos três primeiros números somados pelo quato número é: " + resultUm);
 }
-
 //Create a function that takes two numbers and console log the first number raised to the power of the second number.
+
 function powerOfNumber (n1, n2) {
     let resultPower = Math.pow(Number(n1), Number(n2));
     console.log("O resultado da potência é: " + resultPower);
 }   
-
 //FizzBuzz Challenge
 function testIfQuatro(n1){
     for (let i = 0; i < n1; i++) {
@@ -77,23 +72,13 @@ function testIfQuatro(n1){
     }
 }
 
-
 // ARRAYS test1 :
-
 // 01 - 
-
 let movies = ["star wars", "lord of the rings", "matrix"];
-
-
 //02 - 
 let movieUm = movies[0];
-
 //03 - 
-
 let movieSize = movies.length;
-
 //04 - 
-
 let lastMovie = movies[2];
-
 // ----------------------------------------------------
