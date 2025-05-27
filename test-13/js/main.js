@@ -76,3 +76,22 @@ function testIfQuatro(n1){
 
     }
 }
+
+
+// ARRAYS :
+
+// 01 - 
+
+let movies = ["star wars", "lord of the rings", "matrix"];
+
+
+//02 - 
+let movieUm = movies[0];
+
+//03 - 
+
+let movieSize = movies.length;
+
+//04 - 
+
+let lastMovie = movies[2];
