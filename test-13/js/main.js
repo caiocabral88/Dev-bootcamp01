@@ -78,7 +78,7 @@ function testIfQuatro(n1){
 }
 
 
-// ARRAYS :
+// ARRAYS test1 :
 
 // 01 - 
 
@@ -95,3 +95,5 @@ let movieSize = movies.length;
 //04 - 
 
 let lastMovie = movies[2];
+
+// ----------------------------------------------------
