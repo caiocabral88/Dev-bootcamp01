@@ -61,16 +61,17 @@ function powerOfNumber (n1, n2) {
     console.log("O resultado da potência é: " + resultPower);
 }   
 
-function testIfTres(n1){
+//FizzBuzz Challenge
+function testIfQuatro(n1){
     for (let i = 0; i < n1; i++) {
         if (n1 % 3 === 0 && n1 % 5 === 0) {
-            console.log("fizz");
+            console.log(i + "fizz");
         } else if (n1 % 3 === 0) {
-            console.log("buzz");
+            console.log(i + "buzz");
         } else if (n1 % 5 === 0) {
-            console.log("fizzbuzz");
+            console.log(i + "fizzbuzz");
         }else {
-            console.log(n1 + " não é divisível por 3 ou 5");
+            console.log(i + n1 + " não é divisível por 3 ou 5");
         }
 
     }
