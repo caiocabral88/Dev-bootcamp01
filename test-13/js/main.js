@@ -66,9 +66,9 @@ function testIfQuatro(n1){
     for (let i = 0; i < n1; i++) {
         if (n1 % 3 === 0 && n1 % 5 === 0) {
             console.log(i + "fizz");
-        } else if (n1 % 3 === 0) {
+        }else if (n1 % 3 === 0) {
             console.log(i + "buzz");
-        } else if (n1 % 5 === 0) {
+        }else if (n1 % 5 === 0) {
             console.log(i + "fizzbuzz");
         }else {
             console.log(i + n1 + " não é divisível por 3 ou 5");
