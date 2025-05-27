@@ -59,4 +59,19 @@ function numbersUm(n1,n2,n3,n4) {
 function powerOfNumber (n1, n2) {
     let resultPower = Math.pow(Number(n1), Number(n2));
     console.log("O resultado da potência é: " + resultPower);
+}   
+
+function testIfTres(n1){
+    for (let i = 0; i < n1; i++) {
+        if (n1 % 3 === 0 && n1 % 5 === 0) {
+            console.log("fizz");
+        } else if (n1 % 3 === 0) {
+            console.log("buzz");
+        } else if (n1 % 5 === 0) {
+            console.log("fizzbuzz");
+        }else {
+            console.log(n1 + " não é divisível por 3 ou 5");
+        }
+
+    }
 }
