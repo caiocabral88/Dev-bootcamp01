@@ -1,7 +1,5 @@
 document.querySelector("button").addEventListener("click", comer);
 
-
-
 // let contador = 0;
 // function comer(){
 //     let valor = document.getElementById("numUm").value;
@@ -27,6 +25,11 @@ document.querySelector("button").addEventListener("click", comer);
 //         document.querySelector("#snack").innerText += " , " + (i + 1);
 //     }
 // }
+
+
+//_________________________________________________________
+
+
 function addThree(n1, n2, n3) {
     let value = Number(n1) + Number(n2) + Number(n3);
     if (value > 1000) {
@@ -82,3 +85,12 @@ let movieSize = movies.length;
 //04 - 
 let lastMovie = movies[2];
 // ----------------------------------------------------
+
+//Basics Array Interation
+function corSelectorQuatro() {
+let coress = ["blue", "yellow", "green", "red"];
+for (let i = 0; i < coress.length; i++){
+    console.log(coress[i]);
+    }
+}
+
