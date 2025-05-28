@@ -51,3 +51,13 @@ function raizUm(n1) {
     let raizNum = Math.cbrt(n2);
     console.log(raizNum);
 }
+
+//Create a function that takes in a number. Console log every number from 1 to that number while skipping multiples of 5.
+
+function pulaNumber(n1) {
+    for (let i =1; i <= n1; i++) {
+        if (i % 5 !== 0) {
+            console.log(i);
+        }
+    }
+}
