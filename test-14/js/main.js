@@ -31,3 +31,23 @@ for (let i = 0; i < number.length; i++){
 }
 
 let result = soma / number.length;
+
+//Create a function that takes two numbers, divide de first by the second number and multiply the result by the third number. Console the result.
+function numFois(n1,n2,n3) {
+    let resulta = Number(n1) / Number(n2);
+    let resultaDois = Number(resulta) * Number(n3);
+    console.log(resultaDois);
+}
+
+//Create a function that takes one number and returns the square root of that.
+
+function raizUm(n1) {
+    let raizNum = Math.sqrt(n2);
+    console.log(raizNum);
+}
+
+//Cube root
+function raizUm(n1) {
+    let raizNum = Math.cbrt(n2);
+    console.log(raizNum);
+}
