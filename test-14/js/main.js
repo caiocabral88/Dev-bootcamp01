@@ -61,3 +61,16 @@ function pulaNumber(n1) {
         }
     }
 }
+
+//Review Array - Accessing elements by the index
+
+function reviewArray(n1,n2,n3,n4,n5) {
+    let sequence = [n1,n2,n3,n4,n5]
+    if (sequence[n1] < sequence[n5]){
+        alert("Hi!");
+    } else if (sequence[n1] > sequence[n2]) {
+        alert("Bye")
+    } else {
+        alert("We close soon");
+    }
+}
