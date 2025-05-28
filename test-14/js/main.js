@@ -66,11 +66,33 @@ function pulaNumber(n1) {
 
 function reviewArray(n1,n2,n3,n4,n5) {
     let sequence = [n1,n2,n3,n4,n5]
-    if (sequence[n1] < sequence[n5]){
+    if (sequence[0] < sequence[4]){
         alert("Hi!");
-    } else if (sequence[n1] > sequence[n2]) {
+    } else if (sequence[0] > sequence[4]) {
         alert("Bye")
     } else {
         alert("We close soon");
     }
 }
+
+
+function multArray(n1,n2,n3) {
+    for (let i = 0;i < multArray.length; i++){
+        let result = n1 * n2 * n3;
+        console.log(result);
+    }
+}
+
+function multEach(n1,n2,n3) {
+    let each = ["n1","n2","n3"];
+    each.forEach((item,index) => {
+        alert(each())
+    })
+}
+
+
+//shift and pop example
+
+let arr = [n1,n2,n3]
+let remove = arr.shift;
+console.log(arr); //n1 terá ido para remove, pop mandaria o ultimo
